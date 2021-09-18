@@ -1,0 +1,99 @@
+.header { background-color: #363636; }
+.header *,
+.header-title {	color: #fff;
+		width: 150%;
+		top: 5em;
+ }
+
+.header-wrap {
+	display: inline-block;	
+	max-width: 1300px;
+	padding: 2em 0 4em 0;
+	//margin: 0 auto;
+
+//	border: 1px solid red;
+}
+
+.header-aside.is-rightSide {
+	background-color: purple;
+	padding: 2em 3em 10em 4em;
+	text-align: center;
+}
+
+.header-aside.is-leftSide {
+		width: 40%;
+		position: relative;	
+		padding-left: 5em;	
+	}
+
+.header-pic {
+	width: 15em; height: 15em;
+	display: inline-block;
+	margin: 0 auto;
+	background: url("../img/pic.jpeg") no-repeat top center #000;
+	background-size: cover !important;
+}
+
+.paragraph {
+	background-color: rgba(127, 127, 127, 50%);
+}
+
+.paragraph-title {
+	font-size: 2em;
+	padding:1em 5em 1em 5em;
+}
+
+.container {
+	border: 1px solid yellow;
+	margin-left: 30em;
+	width: 50%;
+	background-color: rgba(127, 127, 127, 50%);
+	word-spacing: 1em;
+	line-height: 1.5em;
+}
+
+.paragraph-words {
+	font-style: italic;
+	overflow: left;
+	margin-left: 2em;
+}
+
+.paragraph-story {
+
+}
+
+.experience-h1 {
+	font-size: 2em;
+	line-height: .5em;
+	padding:1em 5em 1em 5em;
+}
+
+.hr {
+	display: block;
+	height: .1em;
+	background-color: red;
+}
+
+@media screen and (max-width: 50em) {
+	.header-title { font-size: 3em; }
+}
+
+@media screen and (min-width: 50em) {
+	.header-title { font-size: 5em; }
+
+	.header-wrap {
+		/**/	
+		overflow: auto;
+	}
+	.header-aside {
+		float: left;
+	}
+	.header-aside.is-leftSide {
+		width: 40%;
+		position: relative;		
+	}
+	.header-aside.is-rightSide {
+		width: 60%;
+		
+	}
+}
