@@ -3,6 +3,8 @@
 .header-title {	color: #fff;
 		width: 150%;
 		top: 5em;
+		//font-size: 3em; 
+		//color: #fff;
  }
 
 .header-wrap {
@@ -39,17 +41,28 @@
 }
 
 .paragraph-title {
+	
+}
+
+.paragraph-title-1 {
+	display: inline-block;
+	font-size: 2em;
+	padding:1em 5em 1em 5em;
+}
+
+.paragraph-title-2 {
+	display: inline-block;
 	font-size: 2em;
 	padding:1em 5em 1em 5em;
 }
 
 .container {
-	border: 1px solid yellow;
 	margin-left: 30em;
-	width: 50%;
+	width: 55%;
 	background-color: rgba(127, 127, 127, 50%);
 	word-spacing: 1em;
 	line-height: 1.5em;
+	padding: 1em;
 }
 
 .paragraph-words {
@@ -57,6 +70,13 @@
 	overflow: left;
 	margin-left: 2em;
 }
+
+.paragraph-words-1 {
+	font-style: italic;
+	position: relative; left: 27em;
+	font-size: 1.5em;
+}
+
 
 .paragraph-story {
 
@@ -68,21 +88,155 @@
 	padding:1em 5em 1em 5em;
 }
 
-.hr {
-	display: block;
-	height: .1em;
-	background-color: red;
+.experience-container {
+	position: relative; 	
 }
 
-@media screen and (max-width: 50em) {
-	.header-title { font-size: 3em; }
+.experience-header {
+	display: inline-block;	
+	position: absolute;	top: 1em; left: 10em;
+}
+
+.experience-words {
+	width: 65%;
+	display: inline-block;	 
+	position: relative;	left: 24em;
+	padding: 1em 2em 2em 8em;
+	word-spacing: .7em;
+	line-height: 1.5em;
+}
+
+.goal-container {
+	position: relative;
+}
+
+.goal-header {
+	display: inline-block;	
+	position: absolute;	top: 1em; left: 10em;
+}
+
+.goal-words {
+	width: 60%;
+	display: inline-block;	
+	position: relative;	top: 0em; left: 24em; 
+	padding: 1em 2em 2em 8em;
+	word-spacing: .7em;
+	line-height: 1.5em;	
+}
+
+.value-container {
+	position: relative;	
+}
+
+.value-header {
+	display: inline-block;	
+	position: absolute;	top: 1em; left: 10em;
+}
+
+.value-words {
+	width: 60%;
+	display: inline-block;	 
+	position: relative;	left: 24em; top: 1em;
+	padding: 0em 2em 6em 8em;
+	word-spacing: .7em;
+	line-height: 1.5em;	
+}
+
+.first-line {
+	display: block;
+	height: .1em;
+	background-color: #000;
+	width: 80%;
+	margin: auto;	
+}
+
+.second-line {
+	display: block; top: 0em; 
+	position: 	relative;
+	height: .15em;
+	background-color: #000;
+	width: 80%;
+	margin: 0 auto;	
+}
+
+.third-line {
+	display: block; top: 0em;
+	position: 	relative;
+	height: .1em;
+	background-color: #000;
+	width: 80%;
+	margin: 0 auto;	
+}
+
+.footer-10 {
+	display: inline-block;	;
+	width: 	7%;
+	border: 1px solid #000;
+	background-color: rgba(	173, 73, 174, 70%);
+	position: absolute; bottom: 0em; left: 10em;
+	padding: 1em;
+}
+
+.footer-20 {
+	display: inline-block;	
+	width: 	70%;
+	border: 1px solid #000;
+	position: absolute; bottom: 0em; left: 15.8em;
+	padding: 1em;
+}
+
+.contactbox {
+	width: 100%;
+}
+
+.contactbox-right {
+	display: inline-block;
+	background-color: rgba(0,0,0,80%);
+	width: 50%;
+	position: relative;
+	margin-left: 0em;
+}
+
+.contactbox-left {
+	display: inline-block;
+	background-color: rgba(163,73,164,80%);
+	width: 50%;
+	position: absolute;	 right: 0em;
+	padding: 1.5em 3em .5em 3em;
+
+}
+
+.contactbox-header {
+	font-size: 5em;
+	width: 60%;
+	color: rgb(255,255,255);
+	
+	position: relative; left: 2em;
+}
+
+.contactbox-details {
+	font-size: 2em;
+	position: relative; left: ;
+	
+}
+
+@media handheld and (max-width: 50em) {
+	.header-title { 
+		font-size: 3em; 
+		color: #fff;
+		
+	}
+
+	body, html {
+		background-color: red;
+	}
 }
 
 @media screen and (min-width: 50em) {
 	.header-title { font-size: 5em; }
 
 	.header-wrap {
-		/**/	
+		//	
 		overflow: auto;
 	}
 	.header-aside {
@@ -96,4 +250,4 @@
 		width: 60%;
 		
 	}
-}
+}*/
